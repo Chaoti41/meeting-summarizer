@@ -1,0 +1,11 @@
+{
+  "reference_summary": "The team reviewed the mobile app launch. The backend migration is nearly done with the payments service as the main risk. Design finished onboarding, QA found six critical bugs, and the team set October 20th as the target launch date, contingent on closing the critical bugs.",
+  "reference_actions": [
+    {"task": "Fix the contrast issues and send updated mockups to Dave", "owner": "Carol", "deadline": "2026-10-09"},
+    {"task": "Write a rollback plan for the payments service and share it with the team", "owner": "Bob", "deadline": "2026-10-14"},
+    {"task": "Triage the critical bugs and post a prioritized list in the project channel", "owner": "Dave", "deadline": "2026-10-06"},
+    {"task": "Submit the builds to both app stores once QA signs off", "owner": "Bob", "deadline": null},
+    {"task": "Ask the marketing team for the press kit draft and review it", "owner": "Alice", "deadline": "2026-10-31"},
+    {"task": "Send a rough budget estimate for paid ads", "owner": "Dave", "deadline": "2026-10-14"}
+  ]
+}

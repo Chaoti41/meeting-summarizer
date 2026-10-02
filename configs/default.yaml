@@ -1,0 +1,30 @@
+# Default configuration. Every key is optional; omitted keys use the defaults in src/meetsum/config.py
+spacy_model: en_core_web_sm
+embedding_model: sentence-transformers/all-MiniLM-L6-v2   # use "hash" for an offline, dependency-free embedder
+min_sentence_tokens: 4
+summary_min_tokens: 6
+n_topics: null            # null = automatic (~sqrt(n/2), clamped to 2..10)
+summary_sentences: 5
+max_action_items: 10
+dedup_overlap: 0.8
+dedup_cosine: 0.85
+seed: 13
+
+graph:
+  sim_threshold: 0.35
+  knn: 5
+  adjacency_window: 2
+  adjacency_weight: 0.3
+  min_entity_mentions: 2
+  w_sent_sent: 1.0
+  w_sent_speaker: 0.5
+  w_sent_topic: 1.0
+  w_sent_entity: 0.7
+
+rank:
+  damping: 0.85
+  uniform_mix: 0.5        # share of restart mass spread uniformly (keeps the summary from being only action sentences)
+  seed_verb: 0.5
+  seed_cue_boost: 0.6
+  seed_date: 0.3
+  mmr_lambda: 0.7         # 1.0 = pure relevance, 0.0 = pure diversity

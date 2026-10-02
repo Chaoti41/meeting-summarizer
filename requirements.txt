@@ -1,0 +1,10 @@
+spacy>=3.5
+networkx>=3.0
+numpy>=1.23
+scipy>=1.10
+scikit-learn>=1.2
+pyyaml>=6.0
+sentence-transformers>=2.2
+rouge-score>=0.1.2
+bert-score>=0.3.13
+pytest>=7

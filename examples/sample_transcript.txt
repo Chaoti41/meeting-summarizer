@@ -1,0 +1,23 @@
+Alice: Okay, let's get started. The goal today is to review the status of the mobile app launch and agree on next steps.
+Bob: Sure. The backend migration to the new database is mostly done. We still have two services left, and the payments service is the risky one.
+Alice: Right, the payments service handles all of our billing, so any downtime would hurt revenue.
+Carol: From the design side, the onboarding flow is finished and user testing went well. Testers liked the simplified sign up screen.
+Carol: The only open issue is the accessibility contrast on the settings page.
+Alice: Good. Carol, can you fix the contrast issues by Friday?
+Carol: Yes, I'll fix the contrast issues and send updated mockups to Dave by Friday.
+Dave: Thanks. Those mockups unblock the front end build for the release candidate.
+Bob: On the migration, I'll write a rollback plan for the payments service and share it with the team by next Wednesday.
+Alice: Great. We should also decide on the launch date. Dave, what does QA look like?
+Dave: QA found fourteen bugs last week, and six of them are critical. The crash on Android login is the worst one.
+Dave: I'll triage the critical bugs tomorrow and post a prioritized list in the project channel.
+Alice: Okay. Do we have a risk with the app store review?
+Carol: Apple review usually takes about two days, but Google can take a week. Submitting early reduces the launch risk.
+Bob: I can submit the builds to both stores once QA signs off.
+Alice: Then the target launch date is October 20th, assuming the critical bugs are closed.
+Bob: That works for me.
+Dave: It's tight but possible, as long as the Android login crash is fixed first.
+Alice: Marketing also needs a press kit. I'll ask the marketing team for the draft and review it by the end of the month.
+Carol: Do we have a budget for paid ads?
+Alice: Not yet. Dave, please send me a rough budget estimate for paid ads by next Wednesday.
+Dave: Will do.
+Alice: Thanks everyone. We will reconvene next week to check progress on the launch plan.
